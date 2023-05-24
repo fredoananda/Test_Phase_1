@@ -1,0 +1,24 @@
+.days-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.day {
+  padding: 10px;
+  margin: 5px;
+  background-color: #4a52e3;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.day.selected {
+  background-color: green;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  outline: 2px solid white;
+}
+#selected-day {
+  text-align: center;
+}
